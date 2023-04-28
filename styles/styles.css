@@ -20,3 +20,33 @@ img {
 p {
   padding: 10px;
 }
+main {
+  max-width: 840;
+}
+aside {
+  margin: lem;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+  padding: lem;
+  background-color: #eee;
+  color: #333;
+  text-align: left;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+main img {
+   width: 150px;
+   height: auto;
+   border: 1px solid steelblue;
+   padding: 2px;
+   box-shadow: 0 0 30px grey;   
+}
+p { padding: 0;}
+
+
+footer {
+  margin-top: lem;
+  border-top: 1px solid #000;
+  text-align: center;
+}
