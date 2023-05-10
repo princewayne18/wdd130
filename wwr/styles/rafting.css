@@ -28,6 +28,7 @@ p {
 
 a {
   text-decoration: none;
+
 }
 
 .sociallinks {
@@ -57,7 +58,7 @@ a {
   left: 60%;
   transform: translate(-20%, -20%);
   background-color: rgba(2, 2, 8, 0); /* adjust opacity as needed */
-  padding: -200px;
+  padding: 200px;
   color: var(--secondary-color);
 }
 
