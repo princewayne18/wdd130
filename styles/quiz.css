@@ -1,0 +1,53 @@
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: 0px;
+  background-color: rgb(228, 223, 248);
+
+  
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  color: blue;
+  font-weight:bold;
+  font-size: large;
+
+}
+
+
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 400px;
+  padding: 0;
+  margin: 1rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  color: black;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 40px;
+  background-color: blue;
+  font-size: large;
+  color: aliceblue;
+
+}
