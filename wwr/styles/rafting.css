@@ -8,17 +8,56 @@
   --paragraph-font-size: 30px;
 }
 
-body {
-  font-family: 'Font Name', sans-serif;
-  color: var(--primary-color);
-  background-color: var(--background-color);
-  max-width: 1200px; 
-  margin: 0 auto;
-}
-
 h1 {
   font-size: var(--heading-font-size);
-  color: var(--secondary-color);
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.column1{
+  color: black;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile{
+  float: left;
+  width: 20%;
+  padding: 0;
+  font-style: inherit
+
+}
+input[type="Submit"]{
+  background-color: #5d16a5;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="Submit"]:hover{
+  background-color: yellowgreen;
+}
+
+
+
+
+
+.employee-profiles::after {
+  content: "";
+  clear: both;
+  display: table;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 12pt;
+  
+
 }
 
 p {
@@ -139,6 +178,44 @@ nav {
 section h2{
   text-align: center;
 }
+
+
+input,
+textarea,
+button{
+  width: 190px;
+  padding: 0.5em;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+
+
+footer {
+  background-color: grey;
+  display: table-row;
+  height: 0;
+}
+
+body {
+  font-family: 'Font Name', sans-serif;
+  color: var(--primary-color);
+  display: table;
+  background-color: var(--background-color);
+  max-width: 1200px; 
+  margin: 0 ;
+  height: 100%;
+  padding: 0;
+
+}
+
+footer{
+  position: absolute;
+  bottom: -1500px;
+  height: 40px;
+  margin-top: 40px;
+}
+
 
 
 

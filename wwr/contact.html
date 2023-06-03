@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rafting Company-Contact Page </title>
+    <meta name="description" content="Contact and book us today to give you an adventurous and thrilling rafting">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+<header>
+    <img src="images/Picture1.jpg" alt="Logo"> 
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Trips</a>
+        <a href="#">Contact Us</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h1>Connect With Us</h1>
+        <div class="company-information column1">
+            <address>
+                2 Minerva
+                Cresta,<br> Randburg 2118<br>
+                Johannesburg 
+                Gauteng<br>
+                South Africa
+            </address>
+            <p>Phone: 011 855 2568</p>
+            <p>Email: sales@rafting-company.co.za</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.5544346595743!2d27.972319974232907!3d-26.126658877124477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950b2b2bb6621f%3A0x3d16d0f3ca7e1cbe!2s2%20Minerva%20Ave%2C%20Cresta%2C%20Randburg%2C%202118!5e1!3m2!1sen!2sza!4v1685643492070!5m2!1sen!2sza" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>web form</h2>
+        <form action="/my-handling-form-page" method="post">
+            <fieldset>
+                <legend>Send us a Message</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="purpose">Purpose of Message:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="purpose" value="General Inquiry">General Inquiry</label>
+                    <label for="reservation-question"><input type="radio" id="reservation-question" name="purpose" value="Reservation Question">Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="Website Suggestion">Website Suggestion</label>
+                </div>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <label for="subscribe">Please subscribe me to the monthly newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <hr>
+        <h2>Meet Our Team</h2>
+        <div class="employee-profiles">
+            <div class="profile">
+                <img src="./images/director.jpg" width="200" alt="director">
+                <p class="caption">Prince Dube<br>Director</p>
+            </div>
+            <div class="profile">
+                <img src="./images/jasper.jpg" width="200" height="250" alt="Employee 1">
+                <p class="caption">Jasper Michaels<br>Rafting guide master</p>
+            </div>
+            <div class="profile">
+                <img src="./images/cynthia.webp" height="250" alt="Employee 2" style="width:100%">
+                <p class="caption">Cynthia May<br>Instructor</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>©2023 🌴 Prince Dube 🌴 Johannesburg, South Africa</p>
+        <div class="footer">
+            <a href="./images/contact-us.png">Contact Us Wireframe</a>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
